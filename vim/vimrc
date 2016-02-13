@@ -1,0 +1,21 @@
+
+" Configuration files
+" ----------------------------------------------------------------
+
+" Plugins
+source $HOME/.vim/config/plugins.vim
+
+" Settings
+source $HOME/.vim/config/global-settings.vim
+
+" Plugin-specific settings
+source $HOME/.vim/config/plugin-settings.vim
+
+" Custom commands
+source $HOME/.vim/config/commands.vim
+
+" Custom mappings
+source $HOME/.vim/config/custom-mappings.vim
+
+
+
