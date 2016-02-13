@@ -13,10 +13,6 @@ let g:ctrlp_match_window = 'order:ttb,min:1,max:10,results:10'
 let NERDTreeHijackNewtrw = 0
 let NERDTreeChDirMode = 2
 
-"Make NerdTree easier to toggle."
-nmap <D-1> :NERDTreeToggle<cr>
-nmap <leader>r :NERDTreeFind<cr>
-
 
 " GReplace.vim
 " ----------------------------------------------------------------------------------------------------

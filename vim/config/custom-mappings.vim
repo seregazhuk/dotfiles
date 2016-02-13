@@ -17,14 +17,17 @@ nmap <c-s> :w<cr>
 
 " CtrlP
 " -----------------------------------------------------------------------------
-nmap <D-p> :CtrlP<cr>        "CtrlP methods/variables search.
-nmap <D-r> :CtrlPBufTag<cr>  "CtrlP most recent files."
+nmap <D-p> :CtrlP<cr>        
+"CtrlP methods/variables search.
+nmap <D-r> :CtrlPBufTag<cr>  
+"CtrlP most recent files."
 nmap <D-e> :CtrlPMRU<cr>
 
 " NERTTree
 " -----------------------------------------------------------------------------
 nmap <D-1> :NERDTreeToggle<cr>
 nmap <leader>r :NERDTreeFind<cr>
+
 
 " Split managment
 " -----------------------------------------------------------------------------
