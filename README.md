@@ -1,3 +1,4 @@
 dotfiles
 ========
-some configuration files and utilities.
+
+Configuration for VIM and Oh-my-zsh
