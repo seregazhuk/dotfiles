@@ -19,6 +19,9 @@ setopt menu_complete
 # If a command is not in the hash table, and there exists an executable directory by that name, perform the cd command to that directory.
 setopt auto_cd
 
+# beeps are annoying
+setopt NO_BEEP
+
 # Plugins
 plugins=(git, brew, mercurial, sudo)
 
