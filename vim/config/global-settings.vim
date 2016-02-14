@@ -79,6 +79,11 @@ set termencoding=utf-8
 set laststatus=2        "Always show last status
 
 
+" Swap files out of the project
+" -----------------------------------------------------------------------------
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+
 
 " Misc.options
 " -----------------------------------------------------------------------------

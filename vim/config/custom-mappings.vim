@@ -12,7 +12,7 @@ nmap <c-R> :!vendor/bin/phpunit<cr>
 
 "Save file"
 " -----------------------------------------------------------------------------
-nmap <c-s> :w<cr>
+
 
 
 " CtrlP
@@ -31,6 +31,7 @@ nmap <leader>r :NERDTreeFind<cr>
 
 " Split managment
 " -----------------------------------------------------------------------------
+nmap vs :vsplit<cr>
 nmap <C-J> <C-W><C-J>
 nmap <C-K> <C-W><C-K>
 nmap <C-H> <C-W><C-H>
@@ -43,4 +44,10 @@ nmap 25 :vertical resize 40<cr>
 nmap 50 <C-W>=
 nmap 75 :vertical resize 120<cr>
 
+" Fast save 
+" -----------------------------------------------------------------------------
+nmap <leader>w :w!<cr>
 
+" Fast quit
+" -----------------------------------------------------------------------------
+nmap <leader>q :q!<cr>
