@@ -40,7 +40,6 @@ set fileencoding=utf-8
 
 " Split Management
 " -----------------------------------------------------------------------------
-set splitbelow
 set splitright
 
 

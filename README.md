@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-Configuration for VIM and Oh-my-zsh.
+Configuration for Vim and Oh-my-zsh.
