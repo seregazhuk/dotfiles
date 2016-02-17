@@ -39,6 +39,8 @@ Plugin 'tpope/vim-fugitive.git'
 "Snippets
 Plugin 'msanders/snipmate.vim'
 
+"Surround
+Plugin 'tpope/vim-surround'
 
 "Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
