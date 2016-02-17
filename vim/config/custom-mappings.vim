@@ -2,6 +2,9 @@
 " -----------------------------------------------------------------------------
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
 
+" Create or edit snippets
+nmap <Leader>es :e ~/.vim/snippets/
+
 "Add simple highlight removal.
 " -----------------------------------------------------------------------------
 nmap <Leader><space> :nohlsearch<cr>

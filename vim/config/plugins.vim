@@ -36,6 +36,10 @@ Plugin 'scrooloose/syntastic'
 "Git
 Plugin 'tpope/vim-fugitive.git'
 
+"Snippets
+Plugin 'msanders/snipmate.vim'
+
+
 "Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 call vundle#end()            " required
