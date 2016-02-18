@@ -5,14 +5,18 @@ nmap <Leader>ev :tabedit $MYVIMRC<cr>
 " Create or edit snippets
 nmap <Leader>es :e ~/.vim/snippets/
 
-"Add simple highlight removal.
+" Add simple highlight removal.
 " -----------------------------------------------------------------------------
 nmap <Leader><space> :nohlsearch<cr>
 
-"Run phpunit"
+" Run phpunit"
 " -----------------------------------------------------------------------------
 nmap <c-R> :!vendor/bin/phpunit<cr>
 
+
+" Quickly escape from Insert mode
+" -----------------------------------------------------------------------------
+imap jj <Esc>
 
 " CtrlP
 " -----------------------------------------------------------------------------
