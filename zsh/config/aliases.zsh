@@ -10,3 +10,4 @@ alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset
 # -----------------------------------------------------------------------------
 alias tinker="php artisan tinker"
 alias serve="php artisan serve"
+alias artisan="php artisan "
