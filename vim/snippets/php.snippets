@@ -51,3 +51,20 @@ snippet /*
 	/**
 	 * ${1}
 	 **/
+
+snippet passfield
+	<div class="form-group">
+		<label for="${1:name}">${2:$1}:</label>
+		<input type="password" name="${3:$1}" id="${4:$1}" class="form-control">
+	</div>
+
+snippet textfield
+	<div class="form-group">
+		<label for="${1:name}">${2:$1}:</label>
+		<input type="text" name="${3:$1}" id="${4:$1}" class="form-control" value="">		
+	</div>
+
+snippet submit
+	<div class="form-group">
+		<button class="btn btn-default" type="submit">${1}</button>
+	</div>
