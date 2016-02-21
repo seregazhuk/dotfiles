@@ -49,5 +49,5 @@ let g:syntastic_html_tidy_ignore_errors = [
     \  'discarding unexpected <body>',
     \  '<script> escaping malformed URI reference',
     \  '</head> isn''t allowed in <body> elements',
-    \  'trimming empty <span>'
+    \  'trimming empty <'
     \ ]
