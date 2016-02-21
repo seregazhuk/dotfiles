@@ -33,6 +33,15 @@ filetype plugin indent on
 filetype indent on
 
 
+
+
+" Comments autoindent
+" -----------------------------------------------------------------------------
+set formatoptions+=or
+
+
+
+
 " Always use utf-8
 " -----------------------------------------------------------------------------
 set encoding=utf-8
