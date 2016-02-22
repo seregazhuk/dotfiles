@@ -1,21 +1,22 @@
+# Public method
 snippet pubf
 	public function ${1}()
 	{
 		${2}
 	}
-
+# Protected method
 snippet prof
 	protected function ${1}()
 	{
 		${2}
 	}
-
+# Public static method
 snippet pubfs
 	public static function ${1}()
 	{
 		${2}
 	}
-
+# $this autocompletion
 snippet $
 	$this->${1}
 snippet __co
@@ -23,13 +24,13 @@ snippet __co
 	{
 		${2}
 	}
-	
+# Class
 snippet class
 	class ${1} 
 	{
 		${2}
 	}
-
+# HTML 
 snippet html
 	<!DOCTYPE html>
 	<html land="en">
@@ -41,35 +42,37 @@ snippet html
 	${1}
 	</body>
 	</html>
-
+# PHP-tags
 snippet php
 	<?php
 	${1}
 	?>
-
+# Multiline comments
 snippet /*
 	/**
 	 * ${1}
 	 **/
+# Bootstrap passfield
 snippet passfield
 	<div class="form-group">
 		<label for="${1:name}">${2:$1}:</label>
 		<input type="password" name="${3:$1}" id="${4:$1}" class="form-control">
 	</div>
-
+# Bootstrap textfield
 snippet textfield
 	<div class="form-group">
 		<label for="${1:name}">${2:$1}:</label>
 		<input type="text" name="${3:$1}" id="${4:$1}" class="form-control" value="">		
 	</div>
-
+# Bootstrap submit button
 snippet submit
 	<div class="form-group">
 		<button class="btn btn-default" type="submit">${1}</button>
 	</div>
-
+# Bootstrap textarea
 snippet textarea
 	<div class="form-group">
 	    <label for="${1:name}">${2:$1}:</label>
 	    <textarea name="${3:$1}" id="${4:$1}" class="form-control"></textarea> 
 	</div> 
+
