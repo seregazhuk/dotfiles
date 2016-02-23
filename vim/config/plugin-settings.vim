@@ -31,6 +31,28 @@ let g:airline#extensions#tabline#show_buffers = 0 "Show only tabs, no buffers
 let g:airline#extensions#syntatic#enabled = 1
 let g:airline#extensions#ctrlp#enabled = 1
 
+
+
+
+" UltiSnips.vim
+" ----------------------------------------------------------------------------------------------------
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+
+
+
+
+" YouAutoCompleteMe.vim
+" Simply disable the <tab> key for YCM. 
+" Instead use the movement keys and select the entry with <CR>. 
+" UltiSnips works default with <tab>
+" ----------------------------------------------------------------------------------------------------
+let g:ycm_key_list_select_completion=[]
+let g:ycm_key_list_previous_completion=[]
+
+
+
 " Syntatic
 " ----------------------------------------------------------------------------------------------------
 "set statusline+=%#warningmsg#

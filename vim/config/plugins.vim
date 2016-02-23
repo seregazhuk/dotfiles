@@ -2,45 +2,56 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-"Plugins installer
+" Plugins installer
 Plugin 'VundleVim/Vundle.vim' 
 
-"Directories
+" Directories
 Plugin 'tpope/vim-vinegar'
 
-"Directory tree
+" Directory tree
 Plugin 'scrooloose/nerdtree'
 
-"CtrlP files open
+" CtrlP files open
 Plugin 'kien/ctrlp.vim'
 
-"Twig syntax highlight
+" Twig syntax highlight
 Plugin 'evidens/vim-twig'
 
-"Autocompletion for bracers, quotes and others
+" Autocompletion for bracers, quotes and others
 Plugin 'jiangmiao/auto-pairs'
 
-"Search 
+" Search 
 Plugin 'rking/ag.vim'
 
-"Replace
+" Replace
 Plugin 'skwp/greplace.vim'
 
-"Airline
+" Airline
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
-"Syntastic
+" Syntastic
 Plugin 'scrooloose/syntastic'
 
-"Git
+" Git
 Plugin 'tpope/vim-fugitive.git'
 
-"Snippets
-Plugin 'msanders/snipmate.vim'
+" Snippets
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
-"Surround
+" Surround
 Plugin 'tpope/vim-surround'
+
+" Laravel Blade
+Plugin 'jwalton512/vim-blade'
+
+" YouCompleteMe autocompletion
+Plugin 'Valloric/YouCompleteMe'
+" requires cmake: brew install cmake
+" to install: 
+"   cd ~/.vim/bundle/YouCompleteMe
+"   ./install.py --clang-completer
 
 "Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
