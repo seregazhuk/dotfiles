@@ -1,0 +1,51 @@
+extends html
+snippet pubf "public function"
+public function ${1}()
+{
+	${2}
+}
+endsnippet
+
+snippet prof "protected function"
+protected function ${1}()
+{
+	${2}
+}
+endsnippet
+
+snippet pubfs "public static function"
+public static function ${1}()
+{
+	${2}
+}
+endsnippet	
+
+snippet $ "$this"
+$this->${1}
+endsnippet
+
+snippet __co "__construct"
+public function __construct(${1})
+{
+	${2}
+}
+endsnippet
+
+snippet class "class definition"
+class ${1} 
+{
+	${2}
+}
+endsnippet
+
+snippet php "PHP tags"
+<?php
+	${1}
+?>
+endsnippet
+
+snippet /* "Multiline comments"
+/**
+ * ${1}
+ * **/
+endsnippet

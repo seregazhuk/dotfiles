@@ -1,0 +1,37 @@
+snippet glyph "glyphicon icon" [i]
+<span class="glyphicon glyphicon-${1:home}"></span>$2
+endsnippet
+
+
+snippet container "div class container" [i]
+<div class="container">
+	$1
+</div><!-- .container -->$2
+endsnippet
+
+snippet passfield "bootstrap passfield input"
+<div class="form-group">
+	<label for="${1:name}">${2:$1}:</label>
+	<input type="password" name="${3:$1}" id="${4:$1}" class="form-control">
+</div>
+endsnippet
+
+snippet textfield "bootstrap textfield input"
+<div class="form-group">
+	<label for="${1:name}">${2:$1}:</label>
+	<input type="text" name="${3:$1}" id="${4:$1}" class="form-control" value="">		
+</div>
+endsnippet
+
+snippet submit "bootstrap submit button"
+<div class="form-group">
+	<button class="btn btn-default" type="submit">${1}</button>
+</div>
+endsnippet
+
+snippet textarea "bootstrap textarea"
+<div class="form-group">
+    <label for="${1:name}">${2:$1}:</label>
+    <textarea name="${3:$1}" id="${4:$1}" class="form-control"></textarea> 
+</div> 
+endsnippet	
