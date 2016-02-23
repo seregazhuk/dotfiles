@@ -11,3 +11,8 @@ alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset
 alias tinker="php artisan tinker"
 alias serve="php artisan serve"
 alias artisan="php artisan "
+
+# Ctags
+# -----------------------------------------------------------------------------
+alias tags_make="ctags -R --exclude=.git --exclude=node_modules --exclude=test"
+
