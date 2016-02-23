@@ -38,7 +38,6 @@ Plugin 'tpope/vim-fugitive.git'
 
 " Snippets
 Plugin 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
 
 " Surround
 Plugin 'tpope/vim-surround'
