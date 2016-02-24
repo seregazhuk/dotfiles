@@ -59,3 +59,7 @@ nmap <leader>q :q!<cr>
 " -----------------------------------------------------------------------------
 nmap <leader>lr :e app/Http/routes.php<cr>
 nmap <leader>lc :e composer.json<cr>
+
+" Sort PHP use statements
+" -----------------------------------------------------------------------------
+vmap <Leader>su ! awk '{ print length(), $0 \| "sort -n \| cut -d\\  -f2-" }'<cr>

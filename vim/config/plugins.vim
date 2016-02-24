@@ -52,6 +52,11 @@ Plugin 'Valloric/YouCompleteMe'
 "   cd ~/.vim/bundle/YouCompleteMe
 "   ./install.py --clang-completer
 
+" PHP Syntax
+Plugin 'StanAngeloff/php.vim'
+
+" PHP namespaces
+Plugin 'arnaud-lb/vim-php-namespace'
 "Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 call vundle#end()            " required
