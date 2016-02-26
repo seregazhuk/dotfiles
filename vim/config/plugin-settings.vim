@@ -38,9 +38,10 @@ let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 " ----------------------------------------------------------------------------------------------------
 let g:ycm_key_list_select_completion=[]
 let g:ycm_key_list_previous_completion=[]
-let g:ycm_auto_trigger=0
-set completeopt-=preview
-
+let g:ycm_auto_trigger=1
+set completeopt-=prieview
+let g:ycm_min_num_of_chars_for_completion = 3
+"let g:ycm_key_invoke_completion="<tab>"
 
 " Airline
 " ----------------------------------------------------------------------------------------------------
@@ -123,3 +124,6 @@ augroup phpSyntaxOverride
   autocmd!
   autocmd FileType php call PhpSyntaxOverride()
 augroup END
+
+
+
