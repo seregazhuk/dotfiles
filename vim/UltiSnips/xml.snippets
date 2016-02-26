@@ -1,0 +1,20 @@
+snippet phpunit "{% phpunit.xml template %}"
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false"
+>
+    <testsuites>
+        <testsuite name="${1:SuiteTitle}">
+            <directory suffix=".php">${2:./tests/}</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
+endsnippet

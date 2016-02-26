@@ -45,6 +45,7 @@ set formatoptions+=or
 " Always use utf-8
 " -----------------------------------------------------------------------------
 set encoding=utf-8
+set termencoding=utf-8
 set fileencoding=utf-8
 
 " Split Management
@@ -82,8 +83,7 @@ if has("gui_running")
     set guifont=Inconsolata\ for\ Powerline:h16
 endif
 
-set encoding=utf-8
-set termencoding=utf-8
+
 set laststatus=2        "Always show last status
 
 
