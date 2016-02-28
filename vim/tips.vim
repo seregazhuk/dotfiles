@@ -10,3 +10,4 @@
 " - Press cst to change surrounding tag with Surround Plugin
 " - Press dst to delete surrouding tag with Surrounf Plugin
 " - :%s/foo/bar/g Find each occurrence of 'foo' (in all lines), and replace it with 'bar'.
+" - Press ,su to sort PHP use statements

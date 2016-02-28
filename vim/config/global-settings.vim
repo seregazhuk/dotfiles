@@ -18,7 +18,7 @@ set noerrorbells            "Don't beep
 
 " Auto read/write
 " -----------------------------------------------------------------------------
-set autowrite               "Save on buffer switch
+set autowriteall               "Save on buffer switch
 set autoread                "Auto-reload file as soon as it changes on disk
 
 " Modeline
