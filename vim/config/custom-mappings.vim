@@ -63,3 +63,8 @@ nmap <leader>lc :e composer.json<cr>
 " Sort PHP use statements
 " -----------------------------------------------------------------------------
 vmap <Leader>su ! awk '{ print length(), $0 \| "sort -n \| cut -d\\  -f2-" }'<cr>
+
+
+" PHP auto-formatting
+" -----------------------------------------------------------------------------
+nnoremap <silent><leader>pf :call PhpCsFixerFixFile()<CR>map <Leader>su ! awk '{ print length(), $0 \| "sort -n \| cut -d\\  -f2-" }'<cr>

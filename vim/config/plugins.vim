@@ -59,6 +59,9 @@ Plugin 'arnaud-lb/vim-php-namespace'
 " PHP autocompletion
 Plugin 'shawncplus/phpcomplete.vim'
 
+" PSR-2 formatting
+Plugin 'stephpy/vim-php-cs-fixer'
+
 "Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 call vundle#end()            " required
