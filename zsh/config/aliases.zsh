@@ -16,3 +16,8 @@ alias artisan="php artisan "
 # -----------------------------------------------------------------------------
 alias tags_make="ctags -R --exclude=.git --exclude=node_modules --exclude=test"
 
+# Vim
+# -----------------------------------------------------------------------------
+alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
+alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+alias gvi='/Applications/MacVim.app/Contents/MacOS/Vim -g'

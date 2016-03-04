@@ -96,7 +96,7 @@ set directory=~/.vim/swap//
 " Misc.options
 " -----------------------------------------------------------------------------
 set number 				    "Activate line numbers
-set shell=/bin/zsh\ -i      "Make zsh aliases available
+set shell=/bin/zsh          "Make zsh aliases available
 set showmode                "Always show what mode we are currently editing in
 set nowrap                  "Don't wrap lines
 set expandtab

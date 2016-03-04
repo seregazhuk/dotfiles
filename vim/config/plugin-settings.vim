@@ -114,8 +114,6 @@ autocmd FileType php noremap <Leader>nf :call PhpExpandClass()<CR>
 " StanAngeloff/php.vim
 " ----------------------------------------------------------------------------------------------------
 function! PhpSyntaxOverride()
-  hi! def link phpDocTags  phpDefine
-  hi! def link phpDocParam phpType
 endfunction
 
 augroup phpSyntaxOverride
