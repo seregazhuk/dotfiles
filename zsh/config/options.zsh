@@ -23,6 +23,6 @@ setopt auto_cd
 setopt NO_BEEP
 
 # Plugins
-plugins=(git, brew, mercurial, sudo)
+plugins=(git, brew, mercurial, sudo, hub)
 
 
