@@ -1,5 +1,11 @@
 extends html, laravel
 
+snippet php "PHP open tag"
+<?php
+
+
+endsnippet
+
 snippet pubf "public function"
 public function ${1}(${2})
 {
@@ -14,12 +20,20 @@ protected function ${1}(${2})
 }
 endsnippet
 
-snippet pubfs "public static function"
+snippet pubsf "public static function"
 public static function ${1}(${2})
 {
 	${3}
 }
 endsnippet	
+
+snippet prosf "protected static function"
+protected static function ${1}(${2})
+{
+	${3}
+}
+endsnippet	
+
 
 snippet $ "$this object"
 $this->${1}
@@ -37,12 +51,6 @@ class ${1}
 {
 	${2}
 }
-endsnippet
-
-snippet php "PHP tags"
-<?php
-	${1}
-?>
 endsnippet
 
 snippet /* "Multiline comments"

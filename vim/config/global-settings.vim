@@ -69,7 +69,7 @@ set linespace=5
 
 "Fake custom left padding"
 set foldcolumn=1
-highlight foldcolumn guibg=bg
+"highlight foldcolumn guibg=bg
 
 set guioptions-=e                                   "Remove GUI tabs"
 set guioptions-=l			                        "Remove scroll bars..."
