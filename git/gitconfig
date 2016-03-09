@@ -1,0 +1,24 @@
+[merge]
+	tool = opendiff
+[core]
+	excludesfile = ~/.gitignore
+	autocrlf = input
+	editor = vim
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	s = status
+	l = log
+[color]
+	ui = true
+[user]
+	name = Zhuk Sergey
+	email = seregazhuk88@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[pull]
+	rebase = true

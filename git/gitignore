@@ -1,0 +1,43 @@
+# OS X
+.DS_Store?
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+ehthumbs.db
+Thumbs.db
+
+# Vim
+.local.vimrc
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
+
+
+# Svn
+.svn
+
+# Mercurial
+.hg
+.orig
+
+# PhpStorm
+.idea
+
+# PHP
+vendor
+composer.lock
+
+# Ctags
+tags
+tags-ja
+
+# Node
+node_modules
+
+# Environment
+.env
