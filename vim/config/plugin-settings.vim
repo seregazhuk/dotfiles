@@ -36,9 +36,9 @@ let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 " Instead use the movement keys and select the entry with <CR>. 
 " UltiSnips works default with <tab>
 " ----------------------------------------------------------------------------------------------------
-let g:ycm_key_list_select_completion=[]
-let g:ycm_key_list_previous_completion=[]
-let g:ycm_auto_trigger=1
+"  let g:ycm_key_list_select_completion=[]
+"  let g:ycm_key_list_previous_completion=[]
+"  let g:ycm_auto_trigger=1
 set completeopt=menuone "don't display preview window on autocomplete"
 
 " Airline

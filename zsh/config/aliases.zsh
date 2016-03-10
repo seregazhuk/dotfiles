@@ -21,3 +21,8 @@ alias tags_make="ctags -R --exclude=.git --exclude=node_modules --exclude=test"
 alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias gvi='/Applications/MacVim.app/Contents/MacOS/Vim -g'
+
+# Use aliases with sudo. 
+# A trailing space in value causes the next word to be checked for alias substitution when the alias is expanded.
+# -----------------------------------------------------------------------------
+alias sudo='sudo ' 

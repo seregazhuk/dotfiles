@@ -99,10 +99,10 @@ set number 				    "Activate line numbers
 set shell=/bin/zsh          "Make zsh aliases available
 set showmode                "Always show what mode we are currently editing in
 set nowrap                  "Don't wrap lines
-set expandtab
+set expandtab               "Expand tab into spaces
 set tabstop=4               "Tab is 4 spaces
-set softtabstop=4
-set shiftwidth=4            "Number of spaces used for autoindenting
+set softtabstop=4           "Number of spaces used in INSERT mode
+set shiftwidth=4            "Number of spaces used in NORMAL mode
 set smarttab
 set expandtab               "Expand tabs by default"
 set shiftround              "Use multiple of shifwidth when indenting with '<' and '>'

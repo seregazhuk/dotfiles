@@ -46,7 +46,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'jwalton512/vim-blade'
 
 " Autocompletion
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 
 Plugin 'ervandew/supertab'
 
