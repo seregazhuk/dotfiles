@@ -2,51 +2,51 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-"Plugins installer
+" Plugins installer
 Plugin 'VundleVim/Vundle.vim' 
 
-"Directories
+" Directories
 Plugin 'tpope/vim-vinegar'
 
-"Directory tree
+" Directory tree
 Plugin 'scrooloose/nerdtree'
 
-"CtrlP files open
+" CtrlP files open
 Plugin 'kien/ctrlp.vim'
 
-"Twig syntax highlight
+ "Twig syntax highlight
 Plugin 'evidens/vim-twig'
 
-"Autocompletion for bracers, quotes and others
+" Autocompletion for bracers, quotes and others
 Plugin 'jiangmiao/auto-pairs'
 
-"Search 
+" Search 
 Plugin 'rking/ag.vim'
 
-"Replace
+ "Replace
 Plugin 'skwp/greplace.vim'
 
 "Airline
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
-"Syntastic
+ "Syntastic
 Plugin 'scrooloose/syntastic'
 
-"Git
+ "Git
 Plugin 'tpope/vim-fugitive.git'
 
-"Snippets
+ "Snippets
 Plugin 'SirVer/ultisnips'
 
-"Surround
+ "Surround
 Plugin 'tpope/vim-surround'
 
 " Laravel Blade
 Plugin 'jwalton512/vim-blade'
 
 " Autocompletion
-"Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 
 Plugin 'ervandew/supertab'
 
@@ -61,6 +61,13 @@ Plugin 'shawncplus/phpcomplete.vim'
 
 " PSR-2 formatting
 Plugin 'stephpy/vim-php-cs-fixer'
+
+" Theme for terminal
+Plugin 'altercation/vim-colors-solarized.git'
+
+" JS syntax
+Plugin 'jelera/vim-javascript-syntax'
+
 
 "Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
