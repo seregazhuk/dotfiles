@@ -36,10 +36,11 @@ let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 " Instead use the movement keys and select the entry with <CR>. 
 " UltiSnips works default with <tab>
 " ----------------------------------------------------------------------------------------------------
-"  let g:ycm_key_list_select_completion=[]
-"  let g:ycm_key_list_previous_completion=[]
-"  let g:ycm_auto_trigger=1
-set completeopt=menuone "don't display preview window on autocomplete"
+"let g:ycm_key_list_select_completion=[]
+"let g:ycm_key_list_previous_completion=[]
+"let g:ycm_auto_trigger=1
+set completeopt=menuone
+
 
 " Airline
 " ----------------------------------------------------------------------------------------------------
@@ -77,6 +78,7 @@ let g:syntastic_html_tidy_ignore_errors = [
     \  'plain text isn''t allowed in <head> elements',
     \  'escaping malformed URI reference',
     \  'discarding unexpected <body>',
+    \ '<img> lacks "alt" attribute',
     \  '<script> escaping malformed URI reference',
     \  '</head> isn''t allowed in <body> elements',
     \  'trimming empty <',
@@ -123,6 +125,9 @@ augroup END
 
 
 
+
+
 " stephpy/vim-php-cs-fixer
 " ----------------------------------------------------------------------------------------------------
 let g:php_cs_fixer_level = "psr2"
+
