@@ -17,5 +17,6 @@ source $HOME/.vim/config/commands.vim
 " Custom mappings
 source $HOME/.vim/config/custom-mappings.vim
 
-
+" Macros
+source $HOME/.vim/config/macros.vim
 
