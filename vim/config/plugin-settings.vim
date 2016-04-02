@@ -73,22 +73,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_php_checkers = ['php'] 
-
-let g:syntastic_html_tidy_ignore_errors = [
-    \  'proprietary attribute',
-    \  'plain text isn''t allowed in <head> elements',
-    \  'escaping malformed URI reference',
-    \  'discarding unexpected <body>',
-    \ '<img> lacks "alt" attribute',
-    \  '<script> escaping malformed URI reference',
-    \  '</head> isn''t allowed in <body> elements',
-    \  'trimming empty <',
-    \  'missing <li>',
-    \  'is not recognized!', 
-    \  'discarding unexpected'
-    \ ]
-
-
+let g:syntastic_html_checkers = ['']
 
 
 
