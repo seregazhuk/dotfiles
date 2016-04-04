@@ -36,9 +36,6 @@ Plugin 'vim-airline/vim-airline-themes'
 "Git
 Plugin 'tpope/vim-fugitive.git'
 
-"Snippets
-Plugin 'SirVer/ultisnips'
-
 "Surround
 Plugin 'tpope/vim-surround'
 
