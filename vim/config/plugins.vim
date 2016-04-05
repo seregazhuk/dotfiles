@@ -20,6 +20,9 @@ Plugin 'kien/ctrlp.vim'
 "Twig syntax highlight
 Plugin 'evidens/vim-twig'
 
+"Snippets
+Plugin 'SirVer/ultisnips'
+
 "Autocompletion for bracers, quotes and others
 Plugin 'jiangmiao/auto-pairs'
 
