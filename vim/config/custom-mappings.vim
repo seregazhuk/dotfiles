@@ -29,6 +29,7 @@ nmap <D-e> :CtrlPMRU<cr>
 " NERTTree
 " -----------------------------------------------------------------------------
 nmap <D-1> :NERDTreeToggle<cr>
+nmap <C-n> :NERDTreeToggle<CR>
 nmap <leader>r :NERDTreeFind<cr>
 
 

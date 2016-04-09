@@ -63,8 +63,10 @@ Plugin 'shawncplus/phpcomplete.vim'
 " PSR-2 formatting
 Plugin 'stephpy/vim-php-cs-fixer'
 
-" Theme for terminal
+" Themes
+Plugin 'vim-scripts/oceandeep'
 Plugin 'altercation/vim-colors-solarized.git'
+Plugin 'jdkanani/vim-material-theme'
 
 " PHP Doc blocks
 Plugin 'tobyS/pdv'
@@ -77,5 +79,3 @@ Plugin 'jelera/vim-javascript-syntax'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
-
-

@@ -18,9 +18,8 @@ set noerrorbells            "Don't beep
 
 " Auto read/write
 " -----------------------------------------------------------------------------
-set autowriteall               "Save on buffer switch
+set autowriteall            "Save on buffer switch
 set autoread                "Auto-reload file as soon as it changes on disk
-
 " Modeline
 " -----------------------------------------------------------------------------
 set modeline
@@ -63,7 +62,16 @@ set smartcase                  "Ignore case if search pattern is all lowercase
 " Visuals
 " -----------------------------------------------------------------------------
 set background=dark
-colorscheme material-theme
+
+if has("gui_running")
+    colorscheme material-theme
+else
+    let g:solarized_termcolors = 16
+    let g:solarized_contrast = "high"
+    let g:solarized_termtrans= 1
+    colorscheme solarized
+endif
+
 set linespace=5
 "set nonumber
 
@@ -99,10 +107,10 @@ set number 				    "Activate line numbers
 set shell=/bin/zsh          "Make zsh aliases available
 set showmode                "Always show what mode we are currently editing in
 set nowrap                  "Don't wrap lines
-set expandtab               "Expand tab into spaces
+set expandtab
 set tabstop=4               "Tab is 4 spaces
-set softtabstop=4           "Number of spaces used in INSERT mode
-set shiftwidth=4            "Number of spaces used in NORMAL mode
+set softtabstop=4
+set shiftwidth=4            "Number of spaces used for autoindenting
 set smarttab
 set expandtab               "Expand tabs by default"
 set shiftround              "Use multiple of shifwidth when indenting with '<' and '>'
@@ -110,4 +118,3 @@ set autoindent              "Always set autoidenting on
 set copyindent              "Copy the previous indentation on autoindenting
 set smartindent             
 set backspace=indent,eol,start
-

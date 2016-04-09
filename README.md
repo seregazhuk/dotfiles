@@ -1,7 +1,8 @@
 dotfiles
 ========
 
-Configuration for Vim and Oh-my-zsh.
+## homebrew initialization
+```brew.sh & brew-cask.sh```
 
 ## VIM
 
