@@ -1,8 +1,8 @@
 " Cursor
 "------------------------------------------------------------------------------
 " - Press 'zz' to instantly center the line where the cursor is located.
-" - Press 'G' to scroll up of the file
-" - Press 'gg' to scroll to the bottom of the file
+" - Press 'gg' to scroll up of the file
+" - Press 'G' to scroll to the bottom of the file
 " - Press 'Shift + i' to move at the beginning of the line and switch to
 "   insert mode
 " - Press '$' to move to the end of line
