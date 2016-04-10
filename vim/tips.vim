@@ -8,6 +8,13 @@
 " - Press '$' to move to the end of line
 " - '^ or 0' to move at the beginning of the line in normal mode
 
+" Indents
+"------------------------------------------------------------------------------
+" >>   Indent line by shiftwidth spaces
+" <<   De-indent line by shiftwidth spaces
+" 5>>  Indent 5 lines
+" 5==  Re-indent 5 lines
+
 " NERDTree
 "------------------------------------------------------------------------------
 " - Press 'Shift + i' to show hidden files in NERDTree

@@ -20,14 +20,15 @@ imap jj <Esc>
 
 " CtrlP
 " -----------------------------------------------------------------------------
-nmap <D-p> :CtrlP<cr>        
-nmap <C-p> :CtrlP<cr>        
+nmap <D-p> :CtrlP<cr>
+nmap <C-p> :CtrlP<cr>
 "CtrlP methods/variables search.
-nmap <D-r> :CtrlPBufTag<cr>  
-nmap <C-r> :CtrlPBufTag<cr>  
+nmap <D-r> :CtrlPBufTag<cr>
+nmap <C-r> :CtrlPBufTag<cr>
 "CtrlP most recent files."
 nmap <D-e> :CtrlPMRU<cr>
 nmap <C-e> :CtrlPMRU<cr>
+
 
 " NERTTree
 " -----------------------------------------------------------------------------
