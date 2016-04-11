@@ -36,7 +36,8 @@ brew install zsh
 brew install http
 brew install heroku-toolbelt
 brew install htop
-brew install redis
+brew install eedis
+brew install rubyi
 
 brew linkapps
 # Remove outdated versions from the cellar

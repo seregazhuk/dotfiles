@@ -8,12 +8,22 @@ snippet strict "use strict"
 
 endsnippet
 
-snippet req "require('...')"
-require('${1}')
+snippet req "require(...)"
+require("${1}");
+
 endsnippet
 
-snippet afunc "function(...) {...}"
-function(${1}){
-	${2}
+snippet func "function name(...) {...}"
+function ${1}(${2}){
+	${3}
 }
+endsnippet
+
+snippet => "arrow function"
+(${1}) => { ${2} }
+endsnippet
+
+snippet imp "import from"
+import ${1} from "${2}";
+
 endsnippet
