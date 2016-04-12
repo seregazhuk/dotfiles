@@ -8,6 +8,12 @@
 " - Press '$' to move to the end of line
 " - '^ or 0' to move at the beginning of the line in normal mode
 
+
+" Tabs navigation
+"------------------------------------------------------------------------------
+" g + t Next tab
+" g + T Prev tab
+
 " Indents
 "------------------------------------------------------------------------------
 " >>   Indent line by shiftwidth spaces

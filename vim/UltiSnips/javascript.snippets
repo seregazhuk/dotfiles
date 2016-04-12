@@ -9,8 +9,7 @@ snippet strict "use strict"
 endsnippet
 
 snippet req "require(...)"
-require("${1}");
-
+require("${1}")
 endsnippet
 
 snippet func "function name(...) {...}"
@@ -20,7 +19,9 @@ function ${1}(${2}){
 endsnippet
 
 snippet => "arrow function"
-(${1}) => { ${2} }
+(${1}) => { 
+	${2} 
+}
 endsnippet
 
 snippet imp "import from"
