@@ -17,9 +17,14 @@ brew cask install iterm2
 brew cask install sublime-text
 brew cask install phpstorm
 brew cask install virtualbox
+brew cask install vlc
 brew cask install filezilla
 brew cask install vagrant
 
-# browser
+# browsers
 brew cask install google-chrome
+brew cask install firefox
 
+# fonts
+brew cask install font-meslo-for-powerline
+brew cask install font-sauce-code-powerline
