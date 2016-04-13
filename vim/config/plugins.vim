@@ -36,9 +36,6 @@ Plugin 'skwp/greplace.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
-"Git
-Plugin 'tpope/vim-fugitive.git'
-
 "Surround
 Plugin 'tpope/vim-surround'
 
@@ -64,7 +61,6 @@ Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'stephpy/vim-php-cs-fixer'
 
 " Themes
-Plugin 'vim-scripts/oceandeep'
 Plugin 'altercation/vim-colors-solarized.git'
 Plugin 'jdkanani/vim-material-theme'
 
@@ -75,7 +71,8 @@ Plugin 'tobyS/vmustache'
 " JS Syntax highlight
 Plugin 'jelera/vim-javascript-syntax'
 
-"Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+" Cofee-script 
+Plugin 'kchmck/vim-coffee-script'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
