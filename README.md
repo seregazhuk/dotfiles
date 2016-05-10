@@ -1,5 +1,9 @@
-dotfiles
+.dotfiles
 ========
+
+<p align="center">
+	<img src="logo.png" alt="dotfiles">
+</p>
 
 ## homebrew initialization
 ```brew.sh & brew-cask.sh```
