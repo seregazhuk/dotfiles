@@ -77,7 +77,6 @@ brew 'homebrew/php/php56-xdebug'
 brew 'homebrew/php/php56-zmq'
 
 
-cask 'alfred'
 cask 'font-meslo-for-powerline'
 cask 'font-fira-code'
 cask 'dropbox'

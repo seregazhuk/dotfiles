@@ -19,7 +19,7 @@ curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer phpunit/phpunit
+/usr/local/bin/composer global require laravel/installer phpunit/phpunit laravel/valet
 
 # Set OS X preferences
 # Run this last because this will reload the shell
