@@ -1,13 +1,15 @@
 " Cursor
 "------------------------------------------------------------------------------
-" - Press 'zz' to instantly center the line where the cursor is located.
-" - Press 'gg' to scroll up of the file
-" - Press 'G' to scroll to the bottom of the file
-" - Press 'Shift + i' to move at the beginning of the line and switch to
+" - 'zz' to instantly center the line where the cursor is located.
+" - 'gg' to scroll up of the file
+" - 'G' to scroll to the bottom of the file
+" - 'Shift + i' to move at the beginning of the line and switch to
 "   insert mode
 " - Press '$' to move to the end of line
 " - '^ or 0' to move at the beginning of the line in normal mode
-
+" - 'b' - to move to the beggining of the word
+" - 'e' - to move to the end of the word
+"   'ysw"' - to surround text object with double quotes
 
 " Tabs navigation
 "------------------------------------------------------------------------------
