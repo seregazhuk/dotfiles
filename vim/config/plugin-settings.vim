@@ -12,6 +12,10 @@ let g:ctrlp_match_window = 'order:ttb,min:1,max:10,results:10'
 " ----------------------------------------------------------------------------------------------------
 let NERDTreeHijackNewtrw = 0
 let NERDTreeChDirMode = 2
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+let NERDTreeAutoDeleteBuffer = 1
+let NERDTreeQuitOnOpen = 1
 
 "Make NerdTree easier to toggle."
 nmap <D-1> :NERDTreeToggle<cr>
