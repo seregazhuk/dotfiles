@@ -7,6 +7,7 @@ let g:plug_window = 'topleft new'
 " ----------------------------------------------------------------------------------------------------
 let g:ctrlp_custom_ignore = '\v[\/]\.?(git|hg|svn|idea|node_modules|vendor|VENV)$'
 let g:ctrlp_match_window = 'order:ttb,min:1,max:10,results:10'
+let g:ctrlp_show_hidden = 1
 
 " NERDTree
 " ----------------------------------------------------------------------------------------------------
