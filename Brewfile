@@ -73,7 +73,7 @@ brew 'homebrew/php/php-code-sniffer'
 brew 'homebrew/php/php56-imagick'
 brew 'homebrew/php/php56-intl'
 brew 'homebrew/php/php56-mcrypt'
-brew 'homebrew/php/php56-mongo'
+brew 'homebrew/php/php56-mongodb'
 brew 'homebrew/php/php56-xdebug'
 brew 'homebrew/php/php56-zmq'
 
