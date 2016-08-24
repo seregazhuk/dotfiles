@@ -12,8 +12,10 @@ alias tinker="php artisan tinker"
 alias serve="php artisan serve"
 alias artisan="php artisan "
 alias migrate="php artisan migrate"
+alias migrate:rollback="php artisan migrate:rollback"
 
 # Ctags
+#
 # -----------------------------------------------------------------------------
 alias tags_make="ctags -R --exclude=.git --exclude=node_modules --exclude=test"
 
