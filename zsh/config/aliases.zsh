@@ -6,6 +6,11 @@ alias gc="git commit -m "
 alias gs="git status"
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
+# PHP
+# -----------------------------------------------------------------------------
+alias phpserve="php -S localhost:8000"
+
+
 # Laravel
 # -----------------------------------------------------------------------------
 alias tinker="php artisan tinker"
