@@ -63,7 +63,7 @@ nmap <leader>q :q!<cr>
 " Laravel 
 " -----------------------------------------------------------------------------
 nmap <leader>lr :e app/Http/routes.php<cr>
-nmap <leader>lc :e composer.json<cr>
+nmap <leader>lrw :e app/routes/web.php<cr>
 
 " Sort PHP use statements
 " -----------------------------------------------------------------------------
