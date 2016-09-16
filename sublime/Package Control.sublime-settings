@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Colorsublime",
+		"Emmet",
+		"Facebook Material Theme",
+		"Material Theme",
+		"Package Control",
+		"PHP Companion",
+		"PHP Getters and Setters",
+		"Seti_UI"
+	]
+}
