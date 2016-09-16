@@ -29,3 +29,8 @@ ln -s zsh/custom/agnoster.zsh-theme ~/.oh-my-zsh/cutom/agnoster.zsh-theme
 ln -s git/gitignore ~/.gitignore
 ln -s git/gitconfig ~/.gitconfig
 ```
+
+## Sublime Text 3
+```
+./sublime3/copy.sh
+```
