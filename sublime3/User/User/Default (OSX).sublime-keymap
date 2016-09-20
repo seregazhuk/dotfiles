@@ -1,2 +1,3 @@
 [
+    {"keys": ["super+alt+l"], "command": "reindent", "args": {"single_line": false}}
 ]
