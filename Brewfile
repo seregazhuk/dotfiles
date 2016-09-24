@@ -81,7 +81,7 @@ brew 'homebrew/php/php70-zmq'
 cask 'font-meslo-for-powerline'
 cask 'font-fira-code'
 cask 'dropbox'
-cask 'firefoxe
+cask 'firefoxe'
 cask 'google-chrome'
 cask 'item2'
 cask 'keycastr'
