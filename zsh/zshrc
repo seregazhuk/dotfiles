@@ -27,6 +27,12 @@ export PATH="/usr/local/opt/php56/bin:$PATH"
 # -----------------------------------------------------------------------------
 export PATH="/Applications/VirtualBox.app/Contents/MacOS:$PATH"
 
+# Pear
+# -----------------------------------------------------------------------------
+export PATH="/Users/serega/pear/share/pear:$PATH"
+export PATH="/Users/serega/pear/bin:$PATH"
+
+
 # Nodejs
 # -----------------------------------------------------------------------------
 export NODE_PATH="/usr/local/lib/node_modules"
