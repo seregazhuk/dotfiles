@@ -16,6 +16,7 @@ alias phpserve="php -S localhost:8000"
 alias vup="vagrant up"
 alias vhalt="vagrant halt"
 alias vreload="vagrant reload"
+alias vssh="vagrant ssh"
 
 # Laravel
 # -----------------------------------------------------------------------------
