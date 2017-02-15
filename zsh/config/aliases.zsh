@@ -41,3 +41,7 @@ alias gvi='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 # A trailing space in value causes the next word to be checked for alias substitution when the alias is expanded.
 # -----------------------------------------------------------------------------
 alias sudo='sudo ' 
+
+# Misc
+# -----------------------------------------------------------------------------
+alias weather='curl -s wttr.in | sed -n "1,7p"'
