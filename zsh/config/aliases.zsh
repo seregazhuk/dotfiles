@@ -45,4 +45,4 @@ alias sudo='sudo '
 # Misc
 # -----------------------------------------------------------------------------
 alias weather='curl -s wttr.in | sed -n "1,7p"'
-alias blog='cd /Users/serega/Develop/seregazhuk.github.io & subl . & jekyll serve'
+alias blog='cd /Users/serega/Develop/seregazhuk.github.io && subl . && jekyll serve'
