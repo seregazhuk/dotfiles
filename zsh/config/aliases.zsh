@@ -25,6 +25,7 @@ alias serve="php artisan serve"
 alias artisan="php artisan "
 alias migrate="php artisan migrate"
 alias migrate:rollback="php artisan migrate:rollback"
+alias cc="php artisan cache:clear"
 
 # Ctags
 #
