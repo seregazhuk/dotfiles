@@ -10,6 +10,8 @@ alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset
 # PHP
 # -----------------------------------------------------------------------------
 alias phpserve="php -S localhost:8000"
+alias pu="phpunit"
+alias puf="phpunit --filter="
 
 # Vagrant
 # -----------------------------------------------------------------------------
