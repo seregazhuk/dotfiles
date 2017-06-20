@@ -75,7 +75,6 @@ brew 'homebrew/php/php70-intl'
 brew 'homebrew/php/php70-mcrypt'
 brew 'homebrew/php/php70-mongodb'
 brew 'homebrew/php/php70-xdebug'
-brew 'homebrew/php/php70-zmq'
 
 
 cask 'font-meslo-for-powerline'
