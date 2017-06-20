@@ -77,6 +77,7 @@ brew 'homebrew/php/php70-mongodb'
 brew 'homebrew/php/php70-xdebug'
 
 
+cask '1password'
 cask 'font-meslo-for-powerline'
 cask 'font-fira-code'
 cask 'dropbox'
