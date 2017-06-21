@@ -8,6 +8,10 @@
 ## homebrew initialization
 ```brew.sh & brew-cask.sh```
 
+## Ruby
+```gem install bundler```
+```bundle install```
+
 ## VIM
 
 1. Install vundle 
