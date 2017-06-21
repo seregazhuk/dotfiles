@@ -10,6 +10,12 @@
 
 ## VIM
 
+1. Install vundle 
+```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+2. In Vim run command `PluginInstall`
+
 ### Install additional tools:
 
 PHP PSR-2 formatting:
