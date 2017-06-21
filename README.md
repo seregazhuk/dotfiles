@@ -22,6 +22,8 @@ PHP PSR-2 formatting:
 ln -s zsh ~/.zsh
 ln -s zsh/zshrc ~/.zshrc
 ln -s zsh/custom/agnoster.zsh-theme ~/.oh-my-zsh/cutom/agnoster.zsh-theme
+# load aliases
+source .zshrc
 ```
 
 ## Git
