@@ -24,6 +24,8 @@ ln -s zsh/zshrc ~/.zshrc
 ln -s zsh/custom/agnoster.zsh-theme ~/.oh-my-zsh/cutom/agnoster.zsh-theme
 # load aliases
 source .zshrc
+# enable in PhpStorm 
+# Set it in Preferences->Tools->Terminal and Shell Path = /bin/zsh
 ```
 
 ## Git
