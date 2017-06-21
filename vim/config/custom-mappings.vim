@@ -29,7 +29,6 @@ nmap <C-r> :CtrlPBufTag<cr>
 nmap <D-e> :CtrlPMRU<cr>
 nmap <C-e> :CtrlPMRU<cr>
 
-
 " NERTTree
 " -----------------------------------------------------------------------------
 nmap <D-1> :NERDTreeToggle<cr>
@@ -74,3 +73,4 @@ vmap <Leader>su ! awk '{ print length(), $0 \| "sort -n \| cut -d\\  -f2-" }'<cr
 " PHP auto-formatting
 " -----------------------------------------------------------------------------
 nnoremap <silent><leader>pf :call PhpCsFixerFixFile()<CR>map <Leader>su ! awk '{ print length(), $0 \| "sort -n \| cut -d\\  -f2-" }'<cr>
+

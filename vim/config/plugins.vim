@@ -42,9 +42,6 @@ Plugin 'tpope/vim-surround'
 " Laravel Blade
 Plugin 'jwalton512/vim-blade'
 
-" Autocompletion
-"Plugin 'Valloric/YouCompleteMe'
-
 " Super tab
 Plugin 'ervandew/supertab'
 
@@ -61,6 +58,7 @@ Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'stephpy/vim-php-cs-fixer'
 
 " Themes
+Plugin 'vim-scripts/oceandeep'
 Plugin 'altercation/vim-colors-solarized.git'
 Plugin 'jdkanani/vim-material-theme'
 
@@ -71,8 +69,9 @@ Plugin 'tobyS/vmustache'
 " JS Syntax highlight
 Plugin 'jelera/vim-javascript-syntax'
 
-" Cofee-script 
+" Coffee-script
 Plugin 'kchmck/vim-coffee-script'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+

@@ -131,4 +131,3 @@ let g:php_cs_fixer_level = "psr2"
 " ----------------------------------------------------------------------------------------------------
 let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
 nnoremap <leader>d :call pdv#DocumentWithSnip()<CR>
-
