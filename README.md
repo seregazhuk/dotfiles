@@ -44,3 +44,8 @@ ln -s git/gitconfig ~/.gitconfig
 ```
 ./sublime3/copy.sh
 ```
+
+Create shortcut for command line:
+```
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+```
