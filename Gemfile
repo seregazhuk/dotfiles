@@ -4,4 +4,4 @@ gem 'bundler'
 gem 'github-pages'
 gem 'jekyll'
 gem 'travis-cli'
-
+gem 'html-proofer'
