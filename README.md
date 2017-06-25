@@ -8,6 +8,14 @@
 ## homebrew initialization
 ```brew.sh & brew-cask.sh```
 
+### update php extensions for apache
+```
+brew link httpd24
+# brew reinstall php70 --with-httpd24
+brew upgrade
+brew unlink httpd24
+```
+
 ## Ruby
 ```gem install bundler```
 ```bundle install```
