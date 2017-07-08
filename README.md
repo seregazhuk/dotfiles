@@ -30,9 +30,12 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 ### Install additional tools:
 
-PHP PSR-2 formatting:
-
+PHP 
+PSR-2 formatting:
 ```./composer.phar global require fabpot/php-cs-fixer```
+Laravel installer
+```composer global require "laravel/installer"```
+
 
 ## Zsh
 
