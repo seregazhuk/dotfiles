@@ -24,7 +24,6 @@ brew 'freetype'
 brew 'gdbm'
 brew 'geoip'
 brew 'gettext'
-brew 'jq'
 brew 'pcre'
 brew 'git', args: ['with-brewed-openssl']
 brew 'pkg-config'
