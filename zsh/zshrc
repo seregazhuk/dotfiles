@@ -19,10 +19,6 @@ export PATH="/Users/serega/.composer/vendor/bin:$PATH"
 # -----------------------------------------------------------------------------
 export PATH="/usr/local/sbin:/opt/local/bin:$PATH"
 
-# PHP5.6
-# -----------------------------------------------------------------------------
-export PATH="/usr/local/opt/php56/bin:$PATH"
-
 # VirtualBox
 # -----------------------------------------------------------------------------
 export PATH="/Applications/VirtualBox.app/Contents/MacOS:$PATH"
