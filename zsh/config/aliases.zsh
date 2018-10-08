@@ -55,3 +55,4 @@ alias sudo='sudo '
 # -----------------------------------------------------------------------------
 alias weather='curl -s wttr.in | sed -n "1,7p"'
 alias ar='sudo /usr/sbin/httpd -k restart'
+alias ..='cd ..'
