@@ -9,27 +9,6 @@ ZSH_THEME="agnoster"
 # -----------------------------------------------------------------------------
 source $HOME/.zsh/config/options.zsh
 source $HOME/.zsh/config/aliases.zsh
+source $HOME/.zsh/config/paths.zsh
 
 source $ZSH/oh-my-zsh.sh
-# Composer
-# -----------------------------------------------------------------------------
-export PATH="/Users/serega/.composer/vendor/bin:$PATH"
-
-# Binary
-# -----------------------------------------------------------------------------
-export PATH="/usr/local/sbin:/opt/local/bin:$PATH"
-
-# VirtualBox
-# -----------------------------------------------------------------------------
-export PATH="/Applications/VirtualBox.app/Contents/MacOS:$PATH"
-
-# Pear
-# -----------------------------------------------------------------------------
-export PATH="/Users/serega/pear/share/pear:$PATH"
-export PATH="/Users/serega/pear/bin:$PATH"
-
-
-# Nodejs
-# -----------------------------------------------------------------------------
-export NODE_PATH="/usr/local/lib/node_modules"
-export PATH="$HOME/.node/bin:$PATH"
