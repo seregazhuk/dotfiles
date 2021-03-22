@@ -39,20 +39,11 @@ Laravel installer
 
 ## Zsh
 
-```
-ln -s zsh ~/.zsh
-ln -s zsh/zshrc ~/.zshrc
-ln -s zsh/custom/agnoster.zsh-theme ~/.oh-my-zsh/cutom/agnoster.zsh-theme
-# load aliases
-source .zshrc
-# enable in PhpStorm 
-# Set it in Preferences->Tools->Terminal and Shell Path = /bin/zsh
-```
+View docs [here](./zsh/Readme.md)
 
 ## Git
 ```
-ln -s git/gitignore ~/.gitignore
-ln -s git/gitconfig ~/.gitconfig
+cp git/gitignore ~/.gitignore
 ```
 
 ## Sublime Text 3
