@@ -15,9 +15,9 @@ alias punf="phpunit --filter="
 
 # Docker
 # -----------------------------------------------------------------------------
-alias dc='docker-compose'
-alias dcup='docker-compose up'
-alias dcdown='docker-compose down'
+alias dc='docker compose'
+alias dcup='docker compose up'
+alias dcdown='docker compose down'
 
 # Use aliases with sudo. 
 # A trailing space in value causes the next word to be checked for alias substitution when the alias is expanded.
